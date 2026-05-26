@@ -6,7 +6,6 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Código Secreto",
   description: "Juego creado con Next.js",
-  manifest: "/manifest.json",
 };
 
 export default function RootLayout({
@@ -16,6 +15,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
+      <head>
+        <link rel="manifest" href="/manifest.json" />
+      </head>
+
       <body
         style={{
           margin: 0,
@@ -40,7 +43,7 @@ export default function RootLayout({
               fontWeight: "bold",
             }}
           >
-            Juego 
+            Juego
           </Link>
 
           <Link
@@ -56,7 +59,8 @@ export default function RootLayout({
         </nav>
 
         {children}
-        <SWRegistration/>
+
+        <SWRegistration />
       </body>
     </html>
   );
