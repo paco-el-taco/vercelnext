@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import SWRegistration from "./SWRegistration";
 import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Código Secreto",
   description: "Juego creado con Next.js",
+  manifest: "/manifest.json",
 };
 
 export default function RootLayout({
@@ -54,6 +56,7 @@ export default function RootLayout({
         </nav>
 
         {children}
+        <SWRegistration/>
       </body>
     </html>
   );
