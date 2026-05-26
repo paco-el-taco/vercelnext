@@ -38,18 +38,18 @@ export default function RootLayout({
               fontWeight: "bold",
             }}
           >
-            Juego 🔐
+            Juego 
           </Link>
 
           <Link
-            href="/duelo"
+            href="/memoria"
             style={{
               color: "white",
               textDecoration: "none",
               fontWeight: "bold",
             }}
           >
-            Duelo IA 🤖
+            Memoria
           </Link>
         </nav>
 
