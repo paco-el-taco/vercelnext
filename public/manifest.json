@@ -1,24 +1,24 @@
 {
-"name": "Mentalgames",
-"short_name": "mindgames",
-"description": "Un juego que prueba tu habilidad mental",
-"start_url": "/",
-"display": "standalone",
-"background_color": "#0a84ff",
-"theme_color": "#0a84ff",
-"icons": [
-{
-"src": "https://st2.depositphotos.com/4397063/10828/v/950/depositphotos_108288974-stock-illustration-vector-logo-brain-3.jpg",
-"sizes": "192x192",
-"type": "image/png",
-"purpose": "any"
-},
-{
-"src": "https://st2.depositphotos.com/4397063/10828/v/950/depositphotos_108288974-stock-illustration-vector-logo-brain-3.jpg",
-"sizes": "512x512",
-"type": "image/png",
-"purpose": "maskable"
-
-}
-]
+  "name": "Codigo Secreto",
+  "short_name": "CodigoSecreto",
+  "description": "Juego de Codigo Secreto y Hackeo de Memoria creado con Next.js",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#111827",
+  "theme_color": "#2563eb",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/3064/3064197.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/3064/3064197.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
 }
